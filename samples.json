@@ -1,0 +1,17 @@
+[
+    {
+        "extension": "exe",
+        "description": "Malicious executable disguised as legitimate software.",
+        "filename": "../../../../../../etc/passwd"
+    },
+    {
+        "extension": "pdf",
+        "description": "Document",
+        "filename": "phishing_link.pdf"
+    },
+    {
+        "extension": "<img src=x onerror=alert('XSS')>",
+        "description": "XSS Injection in extension",
+        "filename": "malicious.js"
+    }
+]
